@@ -122,9 +122,10 @@ a {
 
 .mydesc {
   color: #40514E;
-  width: 100%;
-  margin: auto auto 100px auto;
+  font-size: 120%;
   line-height: 2;
+  margin: auto auto 100px auto;
+  width: 100%;
 }
 
 .name {
