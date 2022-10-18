@@ -80,7 +80,7 @@ a {
 }
 
 .balloon {
-  position: absolute;
+  position: fixed;
   right: 15.625rem;
   top: 21.875rem;
   animation: 3s linear 0s infinite alternate balloon-animation;
