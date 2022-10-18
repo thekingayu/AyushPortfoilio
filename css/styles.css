@@ -7,13 +7,13 @@ h1 {
   margin-top: 24px;
   color: #3C9682;
   font-family: 'Sacramento', cursive;
-  font-size: 820%;
+  font-size: 840%;
 }
 
 h2 {
   color: #3E9C87;
   font-family: 'Montserrat', sans-serif;
-  font-size: 320%;
+  font-size: 340%;
   font-weight: normal;
 }
 
@@ -152,6 +152,10 @@ hr {
 .instagram-link {
   position: relative;
   left: 25px;
+}
+
+.footer-message{
+  width: 100%;
 }
 
 .skill-image1 {
