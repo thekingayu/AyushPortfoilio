@@ -68,6 +68,24 @@ a {
   bottom: 300px;
 }
 
+@keyframes balloon-animation {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateY(2vh);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateY(-1vh);
+  }
+}
+
+.balloon {
+  position: absolute;
+  right: 250px;
+  top: 350px;
+  animation: 3s linear 0s infinite alternate balloon-animation;
+}
+
 .copyright {
   color: #000000;
   font-size: 20px;
@@ -155,7 +173,7 @@ hr {
   left: 25px;
 }
 
-.footer-message{
+.footer-message {
   width: 100%;
   color: #000000;
 }
