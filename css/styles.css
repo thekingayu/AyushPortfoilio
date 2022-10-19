@@ -100,14 +100,18 @@ a {
   width: 45px;
   height: 43px;
   position: relative;
-  top: 10px;
+  top: 0;
 }
 
 .contact {
   width: 53px;
   height: 53px;
   position: relative;
-  top: 17px;
+  top: 8px;
+}
+
+.contact-me {
+  margin: 100px auto 40px auto;
 }
 
 .calling {
@@ -177,8 +181,9 @@ hr {
 }
 
 .footer-message {
-  width: 100%;
   color: #000000;
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .skill-image1 {
@@ -199,6 +204,10 @@ hr {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+}
+
+.skills {
+  margin: 100px auto 100px auto;
 }
 
 .profile {
