@@ -30,6 +30,7 @@ a {
   background-color: #CAF7E3;
   position: relative;
   padding-top: 100px;
+  z-index: -2;
 }
 
 .midContainer {
@@ -85,6 +86,7 @@ a {
   right: 15.625rem;
   top: 21.875rem;
   animation: 6s linear 0s infinite alternate balloon-animation;
+  z-index: -1;
 }
 
 .copyright {
@@ -154,7 +156,6 @@ a {
 .intro {
   text-align: center;
   font-size: 2rem;
-  z-index: 1;
 }
 
 hr {
