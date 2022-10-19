@@ -40,7 +40,7 @@ a {
   text-align: center;
   margin-top: 30px;
   background-color: #3E9C87;
-  height: 150px;
+  height: 175px;
 }
 
 .mount {
@@ -73,24 +73,25 @@ a {
     /* pushes the sun down past the viewport */
     transform: translateY(2vh);
   }
+
   to {
     /* returns the sun to its default position */
-    transform: translateY(-1vh);
+    transform: translateY(-20vh);
   }
 }
 
 .balloon {
-  position: fixed;
+  position: absolute;
   right: 15.625rem;
   top: 21.875rem;
-  animation: 3s linear 0s infinite alternate balloon-animation;
+  animation: 6s linear 0s infinite alternate balloon-animation;
 }
 
 .copyright {
   color: #000000;
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
-  top: 20px;
+  top: 30px;
 }
 
 .call {
@@ -153,6 +154,7 @@ a {
 .intro {
   text-align: center;
   font-size: 2rem;
+  z-index: 1;
 }
 
 hr {
