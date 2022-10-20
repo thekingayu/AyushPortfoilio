@@ -115,7 +115,7 @@ a {
 }
 
 .contact-message {
-  width: 30%;
+  width: 40%;
   margin: 40px auto 60px;
 }
 
@@ -189,6 +189,7 @@ hr {
   color: #000000;
   width: 40%;
   margin: 40px auto 60px;
+  line-height: 2;
 }
 
 .skill-image1 {
